@@ -1,0 +1,8 @@
+1.打开redis虚拟机
+2.sh zkServer.sh start  	启动zookeeper微服务注册中心
+3.sh start.sh start			启动redis集群
+4.启动web，cart，order，manage，sso服务器
+5.启动Nginx反向代理服务器
+6.访问后台管理系统地址：manage.jt.com
+7.访问前台京淘网站地址：www.jt.com/index.html
+8.商品详情图片上传至image.jt.com代理的D:/WorkSpace/jt-upload/
